@@ -1,7 +1,7 @@
 # sap-businessobjects-bi-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for SAP BusinessObjects BI
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SAP BusinessObjects BI (beta)](https://www.cdata.com/download/download.aspx?sku=GJZK-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SAP BusinessObjects BI (beta)](https://www.cdata.com/download/download.aspx?sku=GJZM-V&type=beta). 
 ## Purpose
 We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SAP BusinessObjects BI supported by the [CData JDBC Driver for SAP BusinessObjects BI](https://www.cdata.com/drivers/sapbusinessobjectsbi/jdbc).
 
