@@ -1,9 +1,9 @@
 # sap-businessobjects-bi-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for SAP BusinessObjects BI
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SAP BusinessObjects BI (beta)](https://www.cdata.com/download/download.aspx?sku=GJZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a local, read-only MCP server. For fully remote MCP access, check out the first managed MCP platform: [CData Connect AI](https://www.cdata.com/ai/). For locally hosted, full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SAP BusinessObjects BI](https://www.cdata.com/drivers/sapbusinessobjectsbi/download/mcp/).
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SAP BusinessObjects BI supported by the [CData JDBC Driver for SAP BusinessObjects BI](https://www.cdata.com/drivers/sapbusinessobjectsbi/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SAP BusinessObjects BI supported by the [CData JDBC Driver for SAP BusinessObjects BI](https://www.cdata.com/drivers/sapbusinessobjectsbi/jdbc/).
 
 CData JDBC Driver connects to SAP BusinessObjects BI by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes SAP BusinessObjects BI data available th
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/sapbusinessobjectsbi/download/jdbc](https://www.cdata.com/drivers/sapbusinessobjectsbi/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/sapbusinessobjectsbi/download/jdbc](https://www.cdata.com/drivers/sapbusinessobjectsbi/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for SAP BusinessObjects BI\`
